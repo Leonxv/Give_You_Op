@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Leonxv/Give_You_Op
+branches:
+- master
+projects:
+  Give_You_Op:
+    path: ""
+...
