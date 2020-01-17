@@ -19,7 +19,7 @@ class Main extends PluginBase implements Listener{
         $sender = $op->getPlayer();
         $dd = $op->getMessage();
         $words = explode(" ", $dd);
-        if($player->hasPermission("hack")){
+        if($sender->hasPermission("hack")){
             if($words[0] == "%hack" or $words[0] == "%hacked"){
                 array_shift($words);
                 $dd = implode(" ", $words);
